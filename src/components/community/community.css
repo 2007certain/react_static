@@ -1,0 +1,50 @@
+.community {
+  height: 350px;
+  position: relative;
+  padding: 80% 35px 0 35px;
+  margin-bottom: 15px;
+}
+
+.community > * {
+  color: #ffffff;
+  margin: 0;
+}
+
+.community h4 {
+  position: relative;
+}
+
+.hidden-section {
+  display: none;
+}
+
+.community:hover {
+  padding: 35px 35px 0 35px;
+}
+
+.community:hover .hidden-section {
+  display: block;
+}
+
+.border {
+  display: block;
+  height: 2px;
+  width: 50px;
+  background-color: white;
+  margin: 15px 0;
+}
+
+.highlights {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  padding: 2px 5px;
+  color: #ffffff;
+  background-color: cadetblue;
+}
+
+@media (max-width: 768px) {
+  .community {
+    padding: 55% 35px 0 35px;
+  }
+}

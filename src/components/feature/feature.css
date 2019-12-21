@@ -1,0 +1,41 @@
+.feature-list {
+  display: flex;
+  max-width: 775px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.feature {
+  max-width: 360px;
+  background-color: white;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.18);
+  padding: 15px 10px;
+  margin: 10px 12px;
+}
+
+.feature h4 {
+  font-size: 28px;
+  margin: 0 0 15px 0;
+  border-bottom: 3px solid rgba(242, 191, 94, 1);
+  padding: 0 0 15px 0;
+}
+
+.feature p {
+  min-height: 125px;
+}
+
+.feature img {
+  display: block;
+  margin: 0 auto;
+}
+
+.feature-section .sub-heading {
+  max-width: 57%;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .feature {
+    margin: 10px auto;
+  }
+}

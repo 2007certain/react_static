@@ -1,0 +1,77 @@
+.testimonial-list {
+  display: flex;
+  max-width: 900px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+
+.testimonial {
+  max-width: 275px;
+  padding: 0;
+  margin: 70px auto 70px auto;
+  text-align: center;
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 25px 0 5px 0;
+  color: #27b2c7;
+}
+
+.testimonial p.designation {
+  color: #a5a5a5;
+}
+
+.testimonial img {
+  display: block;
+  margin: 15px auto;
+  max-width: 80%;
+  border-radius: 50%;
+}
+
+.testimonial .quote-icon{
+  width: 40px;
+  margin-top: 50px;
+  transform: rotate(180deg);
+
+}
+
+.testimonial-section > .testimonialBG {
+  display: block;
+  position: relative;
+  padding: 0;
+}
+
+.testimonial-section > .testimonialBG::after {
+  content: "";
+  background: url("https://www.furlenco-blog.com/wp-content/uploads/2019/05/Multifunctional-Furniture-Sofa-cum-bed-e1557919527199.jpg");
+  opacity: 0.03;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.testimonial-section .sub-heading {
+  max-width: 65%;
+  margin: 20px auto;
+}
+
+.testimonial-section .heading {
+  margin: 0 0 50px 0;
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    margin: 10px auto;
+  }
+}
